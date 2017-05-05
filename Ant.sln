@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ant", "Ant\Ant.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiLib", "DuiLib\DuiLib.vcxproj", "{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Speech", "Speech\Speech.vcxproj", "{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,14 @@ Global
 		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeDebug|Win32.Build.0 = UnicodeDebug|Win32
 		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|Win32.ActiveCfg = UnicodeRelease|Win32
 		{E106ACD7-4E53-4AEE-942B-D0DD426DB34E}.UnicodeRelease|Win32.Build.0 = UnicodeRelease|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.Debug|Win32.Build.0 = Debug|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.Release|Win32.ActiveCfg = Release|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.Release|Win32.Build.0 = Release|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.UnicodeDebug|Win32.ActiveCfg = Debug|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.UnicodeDebug|Win32.Build.0 = Debug|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.UnicodeRelease|Win32.ActiveCfg = Release|Win32
+		{C6E64CB9-F6A2-4F6A-8D67-4734CDFF1D3F}.UnicodeRelease|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
