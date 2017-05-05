@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<Window size="1060,600" caption="0,0,0,50" roundcorner="5,5">
-    <Font name="微软雅黑" size="16" bold="false" italic="false" />
-    <Font name="微软雅黑" size="14" bold="false" italic="false" />
-    <Font name="微软雅黑" size="12" bold="false" italic="false" />
-    <VerticalLayout name="MainLay" bordersize="0" float="false" width="60" height="30">
-        <HorizontalLayout name="TitleLay" bordersize="0" float="false" height="34" bkcolor="#FF37B0E9">
-            
-        </HorizontalLayout>
+<Window >
+    <VerticalLayout name="MainLay" bordersize="0" float="false" bkcolor="#FF020526">
         
     </VerticalLayout>
 </Window>

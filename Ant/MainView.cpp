@@ -1,6 +1,5 @@
 #include "MainView.h"
 
-#include <typeinfo>
 
 MainView::MainView()
 {

@@ -1,7 +1,6 @@
 #include "DuiHead.h"
 
 #include "MainView.h"
-
 #include <vld.h>
 int  _tWinMain(HINSTANCE hInstance,
 	HINSTANCE hPrevInstance,
@@ -29,11 +28,9 @@ int  _tWinMain(HINSTANCE hInstance,
 	CPaintManagerUI::SetInstance(hInstance);
 	CPaintManagerUI::SetResourcePath(CPaintManagerUI::GetInstancePath());
 	//CPaintManagerUI::SetResourceZip("skin.zip");
-
-	//TODO ADD
 	MainView* mainvew = new MainView;
 	mainvew->Create(NULL, _T("mainvew"), UI_WNDSTYLE_FRAME, WS_EX_WINDOWEDGE);
-	mainvew->CenterWindow();
+	mainvew->FullScreen();
 	mainvew->ShowModal();
 
 	::CoUninitialize();
